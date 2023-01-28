@@ -1,3 +1,6 @@
+For globalpayments and those who use to integrate it into their system.
+
+
 #### Process a Payment Example
 
 ```javascript
