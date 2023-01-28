@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["es2015"],
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "declaration": true,
+    "outDir": "./lib",
+    "baseUrl": ".",
+    "paths": {
+      "N/*": ["node_modules/@hitc/netsuite-types/N/*"]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "test/**/*"
+, "test.ts"  ],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "netsuite"
+  ]
+}
