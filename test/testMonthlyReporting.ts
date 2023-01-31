@@ -3,9 +3,10 @@ import { ServicesConfig, ServicesContainer } from "../src";
 
 async function testMonthlyReporting() {
   const config = new ServicesConfig();
-  config.appKey = "QVefNGo6bkMcjveA";
+  config.appKey = "";
   config.serviceUrl = "https://apis.sandbox.globalpay.com/ucp";
-  config.applicationId = "i9R0byBBor6RqTQNj3g4MuVBwH5rd7yR";
+  config.applicationId = "";
+
   config.version = "2021-03-22";
   config.permissions = [
     "TRA_c9967ad7d8ec4b46b6dd44a61cde9a91",
