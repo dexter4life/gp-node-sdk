@@ -7,6 +7,7 @@ async function authorizePayment() {
   config.serviceUrl = "https://apis.sandbox.globalpay.com/ucp";
   config.applicationId = "";
   config.version = "2021-03-22";
+  config.applicationId = "";
 
   ServicesContainer.configure(config);
 

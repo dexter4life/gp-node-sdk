@@ -2,7 +2,7 @@ import { ServicesConfig, ServicesContainer, Transaction } from "../src";
 
 async function incrementChargeTest() {
   const config = new ServicesConfig();
-  config.appKey = "";
+  config.appKey = "QVefNGo6bkMcjveA";
   config.serviceUrl = "https://apis.sandbox.globalpay.com/ucp";
   config.applicationId = "";
   config.version = "2021-03-22";
